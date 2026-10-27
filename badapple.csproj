@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\openkogama-server\api\openkogama-api.csproj" Private="false" />
+    <EmbeddedResource Include="badapple.frames" LogicalName="badapple.frames" />
+    <EmbeddedResource Include="badapple.mp3" LogicalName="badapple.mp3" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>badapple</AssemblyName>
+    <RootNamespace>BadApple</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
